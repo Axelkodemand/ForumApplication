@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{1CE6635E-6F8F-48C3-8ED6-1ED32ABD9D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{EE2F15CF-1EEB-49AB-A389-36035F4DB91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryContracts", "RepositoryContracts\RepositoryContracts.csproj", "{D07ECD84-59F9-46C2-BFD1-70807F25D5E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryRepositories", "InMemoryRepositories\InMemoryRepositories.csproj", "{19E9F5A4-C039-491A-B14E-29F6D6D42E3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2F15CF-1EEB-49AB-A389-36035F4DB91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2F15CF-1EEB-49AB-A389-36035F4DB91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2F15CF-1EEB-49AB-A389-36035F4DB91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2F15CF-1EEB-49AB-A389-36035F4DB91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07ECD84-59F9-46C2-BFD1-70807F25D5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07ECD84-59F9-46C2-BFD1-70807F25D5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07ECD84-59F9-46C2-BFD1-70807F25D5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07ECD84-59F9-46C2-BFD1-70807F25D5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E9F5A4-C039-491A-B14E-29F6D6D42E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E9F5A4-C039-491A-B14E-29F6D6D42E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E9F5A4-C039-491A-B14E-29F6D6D42E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E9F5A4-C039-491A-B14E-29F6D6D42E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE2F15CF-1EEB-49AB-A389-36035F4DB91B} = {1CE6635E-6F8F-48C3-8ED6-1ED32ABD9D2F}
+		{D07ECD84-59F9-46C2-BFD1-70807F25D5E8} = {1CE6635E-6F8F-48C3-8ED6-1ED32ABD9D2F}
+		{19E9F5A4-C039-491A-B14E-29F6D6D42E3C} = {1CE6635E-6F8F-48C3-8ED6-1ED32ABD9D2F}
+	EndGlobalSection
+EndGlobal
